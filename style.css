@@ -1,0 +1,292 @@
+body{
+    color: white;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    font-size: 30px;
+}
+.logo{
+    display: flex;
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+b{
+    font-size: 70px;
+    color: #7f00ff;
+}
+.navitem{
+    display: flex;
+    font-size: 40px;
+}
+.navitem li{
+    list-style: none;
+    margin: 0 40px;
+
+}
+.navitem li a{
+    color: white;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.navitem li:hover a,
+.links a:hover{
+    color: rgb(192, 51, 51);
+}
+.links a{
+    color: #3d535f;
+    margin: 25px 10px;
+
+}
+.links{
+    margin-top: 2%;
+}
+.intro{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+#introimage{
+    margin-right: 10%;
+    direction: ltr;
+    display: inline-flex;
+}
+#Skills{
+    text-align: center;
+    font-size: 50px;
+}
+.buttons{
+    display: block;
+    border-radius: 200px;
+}
+.buttonsoso{
+    display: block;
+}
+.texts{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 38px;
+
+}
+.project{
+    margin-top: 3%;
+    text-align: center;
+}
+#user{
+    margin-top: 5%;
+    width: 70%;
+
+}
+.b1{
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    border-radius: 50px;
+    font-size: 27px;
+    margin-top: 5%;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-weight: bold;
+}
+.b2{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+    font-size: 27px;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-weight: bold;
+}
+.b3{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+    font-size: 27px;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-weight: bold;
+}
+.b4{
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 50px;
+    font-size: 27px;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-weight: bold;
+}
+.b5{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+    font-size: 27px;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-weight: bold;
+}
+.b6{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+    font-size: 27px;
+    background-color: rgb(111, 110, 110);
+    color: white;
+    font-weight: bold;
+}
+.automation{
+    text-align: center;
+}
+#auto{
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 20%;
+}
+
+#View{
+    width: 250px;
+    font-size: 35px;
+    height: 100px;
+    margin-top: 3%;
+    font-weight: bold;
+    border-radius: 70px;
+}
+#View:hover {
+    background-color: blue;
+    color: white;
+  }
+#pro{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 12%;
+}
+#my{
+    font-size: 40px;  
+}
+.intro #name{
+    font-size: 50px; 
+    font-weight: bold;
+}
+#name{
+    font-size: 30px; 
+    font-weight: bold;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+#arrow{
+    font-size: 120px;
+}
+
+.b1:hover{
+    background-color: white;
+    color: black;
+}
+.b2:hover{
+    background-color: white;
+    color: black;
+}
+.b3:hover{
+    background-color: white;
+    color: black;
+}
+.b4:hover{
+    background-color: white;
+    color: black;
+}
+.b5:hover{
+    background-color: white;
+    color: black;
+}
+.b6:hover{
+    background-color: white;
+    color: black;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .laptop {
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+
+  #name {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid black;
+    font-size: 24px;
+    animation: typing 3s steps(25, end);
+    display: inline-block;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18%;
+    }
+  }
+
+  .figma {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    transition: width 0.3s, height 0.3s;
+    margin-left: 25%;
+
+  }
+  .figma:hover {
+    width: 80%; 
+    height: 80%; 
+  }
+
+  .csf {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    transition: width 0.3s, height 0.3s;
+    margin-left: 11%;
+
+  }
+  .csf:hover {
+    width: 90%; 
+    height: 90%; 
+  }
+  #ho:hover{
+    font-size: 34px;
+  }
